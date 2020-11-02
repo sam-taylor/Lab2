@@ -1,0 +1,15 @@
+Package: Lab2
+Type: Package
+Title: A Basic Tool to Visualize and Summarize Medicare Payment Data
+Version: 0.1.0
+Author: Samuel Taylor
+Maintainer: Samuel Taylor <sat2031@med.cornell.edu>
+Description: This package utilizes data "from data.cms.gov (https://data.cms.gov/Medicare-Inpatient/Inpatient-Prospective-Payment-System-IPPS-Provider/97k6-zzx3). The data include hospital-specific charges for the more than 3,000 U.S. hospitals that receive Medicare Inpatient Prospective Payment System (IPPS) payments for Fiscal Year (FY) 2011. The data are for the top 100 most frequently billed discharges as categorized by Medicare Severity Diagnosis Related Group (MS-DRG). These DRGs represent more than 7 million discharges or 60 percent of total Medicare IPPS discharges." - Emily Sweeney, Data Science I
+    Additional information about DRG codes can be found here: https://en.wikipedia.org/ wiki/Diagnosis-related_group.
+    This package provides 2 basic functions, drgboxplot and drgstats, to visualise and summarize the data respectively
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: ggplot2, tidyverse
+
